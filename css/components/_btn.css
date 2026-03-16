@@ -1,0 +1,29 @@
+.btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid var(--blue-600);
+    border-radius: 8px;
+    padding: 12px;
+    width: 176px;
+    height: 48px;
+    background-color: var(--blue-600);
+    color: var(--white);
+    font-family: var(--roboto);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #93c5fd;
+}

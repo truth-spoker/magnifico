@@ -1,0 +1,25 @@
+.container {
+    max-width: 1440px;
+    padding: 0 80px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: var(--roboto);
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 110%;
+    color: var(--blue-gray-900);
+}
+
+p {
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--blue-gray-600);
+}
+
+body {
+    overflow-x: hidden;
+}
