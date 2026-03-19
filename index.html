@@ -12,7 +12,7 @@
     <header>
         <div class="container">
             <div class="header__inner">
-                <img src="images/magnifico.svg" alt="magnifico">
+                <img class="header__logo" src="images/magnifico.svg" alt="magnifico">
                 <nav>
                     <ul class="header__list">
                         <li>
@@ -37,7 +37,21 @@
                         </li>
                     </ul>
                 </nav>
-                <button class="btn">
+                <div class="menu">
+                    <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                    <label for="burger-checkbox" class="burger"></label>
+                    <ul class="menu-list">
+                        <li><a href="#" class="menu-item">Products</a>
+                        <li>
+                        <li><a href="#" class="menu-item">Solutions</a>
+                        <li>
+                        <li><a href="#" class="menu-item">Services</a>
+                        <li>
+                        <li><a href="#" class="menu-item">Pricing</a>
+                        <li>
+                    </ul>
+                </div>
+                <button class="btn header__btn">
                     Sign Up Free
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
