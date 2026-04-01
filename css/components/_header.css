@@ -131,9 +131,14 @@
 }
 
 @media (max-width: 576px) {
+    .header__inner {
+        margin-bottom: 48px;
+    }
+
     .header__list {
         display: none;
     }
+
 
     .container {
         padding: 0px 16px;
